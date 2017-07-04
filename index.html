@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Coding Penguin</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles5.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+    
+   <style>
+      .badge-notify{
+        background:red;
+        position:relative;
+        top: -20px;
+        right: 10px;
+      }
+      .my-cart-icon-affix {
+        position: fixed;
+        z-index: 999;
+      }
+  </style>
+<body>
+
+
+<div class="container-fluid">
+    
+    <div class="menu">
+        <!-- Menu icon -->
+        <div class="icon-close">
+            <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+        </div>
+        
+        <!-- Menu -->
+        <ul>
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Blog</a></li>
+            <li><a href='#'>Help</a></li>
+            <li><a href='#'>Contacts</a></li>
+        </ul>
+    </div>
+    
+
+<div class="row" id="banner">
+    <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+         Menu
+    </div>
+    
+  <div class="jumbotron text-center">
+      <h1>The Coding Penguin</h1>
+      <p> Where coding and penguins unite. </p>
+      <a href="account.html"> <button class="btn btn-primary btn-sm tbn-default createaccount">CREATE AN ACCOUNT</button></a>
+  </div>    
+</div>
+    
+    <div class="page-header">
+    <h1>Products
+      <div style="float: right; cursor: pointer;">
+        <span class="glyphicon glyphicon-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
+      </div>
+    </h1>
+  </div>
+
+<div class="row text-center" id="products">
+  <div class="col-sm-12">
+    <h2>The Penguins</h2>
+  </div>
+
+  <div class="col-md-3">
+    <h3>HTML &amp; CSS Penguin</h3> <strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="1" data-name="HTML&CSS" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button>
+  </div>
+    
+    
+  <div class="col-md-3">
+    <h3>Javascript Penguin</h3> <strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="2" data-name="Javascript" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button>
+  </div>
+    
+  <div class="col-md-3">
+    <h3>AngularJS Penguin</h3> <strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="3" data-name="Angular" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button>
+  </div>
+    
+  <div class="col-md-3">
+    <h3>C++ Penguin</h3> <strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="4" data-name="C++" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button>
+  </div>
+    
+  <div class="col-md-3">
+    <h3>Java Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="5" data-name="Java" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>Python Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="6" data-name="Python" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>PHP Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="7" data-name="PHP" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>R Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="8" data-name="R" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>Swift Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="9" data-name="Swift" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>C Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="10" data-name="C" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>Visual Basic Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="11" data-name="Visual Basic" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+    <div class="col-md-3">
+    <h3>Ruby Penguin</h3><strong>$10</strong>
+    <img src="img/penguin.jpg" class="img-responsive img-circle center-block">
+      <button class="btn btn-danger my-cart-btn" data-id="12" data-name="Ruby" data-price="10" data-quantity="0" data-image="img/penguin.jpg">Add to Cart</button> 
+    </div>
+    
+</div>
+
+<div class="row text-center" id="contact-us">
+    <h2>Contact us</h2>
+    <div>
+      100 Penguin Avenue,<br>
+      New Penguin, NY 10001 <br>
+      (555) 555-5555
+    </div>
+</div>
+
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./jquery.mycart.js"></script>
+    
+    <script>
+        $(function () {
+              var goToCartIcon = function($addTocartBtn){
+              var $cartIcon = $(".my-cart-icon");
+              var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
+              $addTocartBtn.prepend($image);
+        }
+        
+        $('.my-cart-btn').myCart({
+              classCartIcon: 'my-cart-icon',
+              classCartBadge: 'my-cart-badge',
+              classProductQuantity: 'my-product-quantity',
+              classProductRemove: 'my-product-remove',
+              classCheckoutCart: 'my-cart-checkout',
+              affixCartIcon: true,
+              showCheckoutModal: true,
+              clickOnAddToCart: function($addTocart){
+                goToCartIcon($addTocart);
+              },
+              clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+                console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+              },
+              checkoutCart: function(products, totalPrice, totalQuantity) {
+                console.log("checking out", products, totalPrice, totalQuantity);
+              },
+            });
+        });
+        
+        
+            $(function () {
+            var options = {
+              currencySymbol: '$',
+              classCartIcon: 'my-cart-icon',
+              classCartBadge: 'my-cart-badge',
+              classProductQuantity: 'my-product-quantity',
+              classProductRemove: 'my-product-remove',
+              classCheckoutCart: 'my-cart-checkout',
+              affixCartIcon: true,
+              showCheckoutModal: true,
+              cartItems: [
+                {id: 1, name: 'html_css', price: 10, quantity: 0, image: 'img/penguin.jpg'},
+                {id: 2, name: 'javascript', price: 10, quantity: 0, image: 'img/penguin.jpg'},
+                {id: 3, name: 'angular', price: 10, quantity: 0, image: 'img/penguin.jpg'},
+                {id: 4, name: 'cpp', price: 10, quantity: 0, image: 'img/penguin.jpg'},
+                {id: 5, name: 'java', price: 10, quantity: 0, image: 'img/penguin.jpg'}
+              ],
+              clickOnAddToCart: function($addTocart){
+                goToCartIcon($addTocart);
+              },
+              clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+                console.log("cart icon clicked", $cartIcon, products, totalPrice, totalQuantity);
+              },
+              checkoutCart: function(products, totalPrice, totalQuantity) {
+                var checkoutString = "Total Price: " + totalPrice + "\nTotal Quantity: " + totalQuantity;
+                checkoutString += "\n\n id \t name \t summary \t price \t quantity \t image path";
+                $.each(products, function(){
+                  checkoutString += ("\n " + this.id + " \t " + this.name + " \t " + this.price + " \t " + this.quantity + " \t " + this.image);
+                });
+                alert(checkoutString)
+                console.log("checking out", products, totalPrice, totalQuantity);
+              }
+                        };
+              $("selector").myCart(options);
+         });
+        
+        var menuslide = function(){
+            /* Push the body and the nav over by 285px over*/
+            $('.icon-menu').click(function() {
+                $('.menu').animate({
+                    left: "0px"
+                }, 200);
+                
+                $('body').animate({
+                    left: "285px"
+                }, 200);
+            });
+                
+                /* Then push them back */
+                 $('.icon-close').click(function() {
+                $('.menu').animate({
+                    left: "-285px"
+                }, 200);
+                
+                $('body').animate({
+                    left: "0px"
+                }, 200);
+            });
+        };
+    $(document).ready(menuslide);                         
+    </script>
+</body>
+</html>
